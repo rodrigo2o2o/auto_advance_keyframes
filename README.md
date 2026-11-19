@@ -1,0 +1,2 @@
+Avanço da Timeline no AnimationPlayer: sempre que você clica no ícone de chave da propriedade frame (ou frame_coords), o sinal property_keyed agora envia obrigatoriamente p_advance = true, fazendo a agulha da timeline pular automaticamente para o próximo step (quadro/segundo).
+Incremento do Frame no Inspector: o código agora suporta tanto Sprite2D/Sprite3D (com hframes e vframes) quanto AnimatedSprite2D (com SpriteFrames) e nós genéricos com propriedade frame, incrementando frame = frame + 1 de forma segura.
